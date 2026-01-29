@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ff6b00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 420px;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    /*border: 1px solid #eee;*/
+    /*box-shadow: 0 15px 35px rgba(248, 162, 103, 0.3);*/
+}
+
+.top-orange {
+    background: linear-gradient(#ff9e33, #ff6b00);
+    padding: 60px 40px;
+    text-align: center;
+    color: white;
+}
+
+.top-orange h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.top-orange p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.top-orange a {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
+}
+
+.bottom-white {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.bottom-white h3 {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    background: linear-gradient(to right, #ff9e33, #ff6b00);
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 2px;
+}
+
+.input-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #bbb;
+    margin: 20px 0 40px;
+}
+
+.options a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.login-btn {
+    background: #ff4136;
+    color: white;
+    border: none;
+    padding: 14px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #e63930;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}

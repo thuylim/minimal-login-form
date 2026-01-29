@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <div class="top-orange">
+            <h1>Welcome Back</h1>
+            <p>Please sign in to access your account and continue where you left off.</p>
+            <a href="#">CREATE ACCOUNT</a>
+        </div>
+
+        <div class="bottom-white">
+            <h3>USER LOGIN</h3>
+            <form id="loginForm">
+                <div class="input-box">
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="options">
+                    <label><input type="checkbox"> Remember</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
